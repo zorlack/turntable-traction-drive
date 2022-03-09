@@ -1,6 +1,7 @@
 title: Turntable Traction Drive
 description: An open-source traction drive for rotating a turntable stage.
 markdown: GFM
+google_analytics: G-SS393RZ8TK
 plugins:
   - jemoji
 
