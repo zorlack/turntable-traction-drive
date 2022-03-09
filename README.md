@@ -6,7 +6,7 @@ This is my design for a Turntable Traction Drive. It's meant to turn a large the
 
 I was inspired to take on this project by Alan Hendrickson's chain-driven design featured in [Technical Designs Solutions for Theatre Volume 2 (Sammler/Harvey 2002)](https://www.amazon.com/Technical-Design-Solutions-Theatre-Collection/dp/0240804929). His design shows how a chain drive can rotate a turntable. I was interested in designing an easier-to-integrate "bolt-on" solution.
 
-Feel free to make your own or iterate on this in any way permitted by the [license](../LICENSE)! If you do happen to build one, send me a picture, I'd love to share it!
+Feel free to make your own or iterate on this in any way permitted by the [license](LICENSE)! If you do happen to build one, send me a picture, I'd love to share it!
 
 ## Critical Documents
 
