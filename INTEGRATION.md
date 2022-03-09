@@ -44,7 +44,7 @@ To help ensure safe operation of this Turntable Traction Drive please ensure the
 
 ### Liability
 
-This design is available for use under the [Creative Commons Attribution 4.0 International license](LICENSE). By using this design you agree to the terms of this license.
+This design is available for use under the [Creative Commons Attribution 4.0 International license](https://github.com/zorlack/turntable-traction-drive/blob/master/LICENSE). By using this design you agree to the terms of this license.
 
 The license includes the following language, which you should read:
 
