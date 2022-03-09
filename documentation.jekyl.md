@@ -1,5 +1,7 @@
 ---
 permalink: /documentation
+title: Turntable Traction Drive
+description: Documentation
 ---
 
 # Table of Contents
@@ -21,6 +23,6 @@ permalink: /documentation
 
 # License
 
-<div class="text-center" markdown="0">
+<code markdown="0">
 {% include_relative LICENSE %}
-</div>
+</code>
