@@ -1,4 +1,4 @@
-# Safety and Liability
+# Turntable Traction Drive Safety and Liability
 
 As it's intended use involves live actors on a rotating stage, the safety of the Turntable Traction Drive must be considered seriously. But before we dig into a risk assesment understand this: **I am not an engineer.** I write software for a living and am not formally trained to assess safety risks. As such, any risk assesment made here should not be considered comprehensive.
 
