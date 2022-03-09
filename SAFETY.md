@@ -1,8 +1,10 @@
 # Turntable Traction Drive Safety and Liability
 
-As it's intended use involves live actors on a rotating stage, the safety of the Turntable Traction Drive must be considered seriously. But before we dig into a risk assesment understand this: **I am not an engineer.** I write software for a living and am not formally trained to assess safety risks. As such, any risk assesment made here should not be considered comprehensive.
+As it's intended use involves live actors on a rotating stage, the safety of the Turntable Traction Drive must be considered seriously. But before we dig into a risk assesment understand this: 
 
-In undertaking this project, and making it publicly available, it behoves me to draw attention to this fact and to the following: **I don't guarantee that this design works as intended, and I am not liable for any harm resulting from your use of this design.**
+**I am not an engineer.** I write software for a living and am not formally trained to assess safety risks. As such, **any risk assesment made here should not be considered comprehensive.**
+
+In undertaking this project, and making it publicly available, it behooves me to draw attention to this fact, as well as to to state clearly that **I don't guarantee that this design works as intended, and I am not liable for any harm resulting from your use of this design.**
 
 ## Liability
 
