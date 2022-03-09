@@ -1,6 +1,11 @@
 ---
-permalink: /documentation/
+permalink: /documentation
 ---
+
+# Table of Contents
+
+- [Safety](#safety-and-liability)
+
 {% include_relative  SAFETY.md %}
 {% include_relative  DESIGN.md %}
 {% include_relative  ASSEMBLY.md %}
