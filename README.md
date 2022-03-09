@@ -12,7 +12,7 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 
 | Document Name | Description |
 | -- | -- |
-| [Creative Commons Attribution 4.0 International](LICENSE) | The license under-which these plans are made available. |
+| [Creative Commons Attribution 4.0 International](https://github.com/zorlack/turntable-traction-drive/blob/master/LICENSE) | The license under-which these plans are made available. |
 | [Bill Of Materials](BOM.md) | A list of the parts required to build this machine. |
 | [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf) | A one-page PDF helpful when ordering custom cut steel. |
 | [Design Document](DESIGN.md) | Discussion of design and considerations made. |
@@ -31,7 +31,7 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 
 | Part | Description |
 | -- | -- |
-| [Chassis Parts](dxfs/) | 2D CAD drawings of chassis parts to be cut from 1/4" mild steel. | 
+| [Chassis Parts](https://github.com/zorlack/turntable-traction-drive/tree/master/dxfs) | 2D CAD drawings of chassis parts to be cut from 1/4" mild steel. | 
 | [Safety Placard](TurntableTractionDriveLabel.pdf) | A PDF to be made into a printable label and applied to the top of the chassis. | 
 
 ## Media
