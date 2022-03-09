@@ -12,13 +12,14 @@ Feel free to make your own or iterate on this in any way permitted by the [licen
 
 | Document Name | Description |
 | -- | -- |
-| [Creative Commons Attribution 4.0 International](https://github.com/zorlack/turntable-traction-drive/blob/master/LICENSE) | The license under-which these plans are made available. |
-| [Bill Of Materials](BOM.md) | A list of the parts required to build this machine. |
-| [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf) | A one-page PDF helpful when ordering custom cut steel. |
+| [Safety and Liability](SAFETY.md) | Discussion of the drive and safety factors associated with its use. |
 | [Design Document](DESIGN.md) | Discussion of design and considerations made. |
 | [Assembly Guide](ASSEMBLY.md) |  Instructions on how to build your own Turntable Traction Drive.  |
 | [Integration Guide](INTEGRATION.md) | Instructions on how to integrate this machine into your set desgin. |
 | [Operation Guide](OPERATION.md) | Instructions on how to operate this machine. |
+| [Bill Of Materials](BOM.md) | A list of the parts required to build this machine. |
+| [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf) | A one-page PDF helpful when ordering custom cut steel. |
+| [Creative Commons Attribution 4.0 International](https://github.com/zorlack/turntable-traction-drive/blob/master/LICENSE) | The license under-which these plans are made available. |
 
 ## Checklists
 
