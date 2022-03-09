@@ -14,15 +14,26 @@ description: Documentation
 - [Bill of Materials](#bill-of-materials)
 - [License](#license)
 
+<div style="page-break-after: always"></div>
 {% include_relative  SAFETY.md %}
+
+<div style="page-break-after: always"></div>
 {% include_relative  DESIGN.md %}
+
+<div style="page-break-after: always"></div>
 {% include_relative  ASSEMBLY.md %}
+
+<div style="page-break-after: always"></div>
 {% include_relative  INTEGRATION.md %}
+
+<div style="page-break-after: always"></div>
 {% include_relative  OPERATION.md %}
+
+<div style="page-break-after: always"></div>
 {% include_relative  BOM.md %}
 
+<div style="page-break-after: always"></div>
 # License
-
 ```
 {% include_relative LICENSE %}
 ```
