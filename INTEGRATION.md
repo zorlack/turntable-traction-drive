@@ -2,32 +2,6 @@
 
 This guide is designed to help scenic designers and technical directors integrate the Turntable Traction Drive into their sets.
 
-## Safety
-
-As it's intended use involves live actors on a rotating stage, safety must be considered seriously. 
-
-:warning: **The Turntable Traction Drive is a powerful machine. Using it should not be taken lightly. Caution and care must be taken in every integration to ensure that safe operating parameters are configured.**
-
-A turntable may pose a hazard on set even when operated manually by backstage technicians, however, unlike backstage technicians this machine has no brain. It doesn't know to stop because a piece of scenery is late during a scene-shift. It is not context-aware. Also, unlike a backstage technician, under the right circumstances this machine can summon inhuman amounts of torque.
-
-:warning: **Due to its power and remoteness this machine is not designed as part of an automation system. Rather, it is intended to be manually operated by a user with a clear view of the turntable.**
-
-As some risk is unavoidable, my analysis will focus on mitigation strategies.
-
-| Risk | Mitigation Strategy |
-| -- | -- |
-| Electrical shock hazard | **Requirements:** Ground VFD appropriately to input mains. Ground motor appropriately to VFD. Ground chassis appropriately to the motor chassis. |
-| Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirements:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
-| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirements:** Interface between the turntable and the traction drive must be fully enclosed during operation. |
-| Risk of unexpected start | **Requirements:** Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
-| Risk of fall due to sudden acceleration | Use conservative values for `f01`, `f02`, and `f03`. |
-| Risk of fall due to overspeed | Set a conservative hard frequency limit using `a61` |
-| Risk of crushing | #UNKNOWN# Investigate `B_12` and current overload protection. |
-| Risk of crushing because of external scenery-based crush points. | **Requirements:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
-| Risk of entanglement | **Requirements:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
-| Risk of slipping on a free-rotating turntable | **Requirement** A parking brake must be employed when the Turntable Traction Drive is not in use. All on-stage personel must be instructed on the free-rotating-nature of the turntable. |
-| Risk of operator/integrator ignorance | **Requirements:** All safety requirements and warnings must be clearly printed on a label applied to the machine. Documentation must be made available. |
-
 ## Integration Checklist
 
 To help ensure safe operation of this Turntable Traction Drive please ensure the following **REQUIRED** conditions have been met:
