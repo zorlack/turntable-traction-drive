@@ -2,12 +2,15 @@
 
 This guide is designed to help scenic designers and technical directors integrate the Turntable Traction Drive into their sets.
 
+:warning: **Before Proceeding, make sure you have read and understood the [SAFETY](SAFETY.md) section of the documentation.**
+
 ## Integration Checklist
 
 To help ensure safe operation of this Turntable Traction Drive please ensure the following **REQUIRED** conditions have been met:
 
 | Requirement | Complete |
 | -- | -- |
+| Technical Director/Integrator must read and understand the [safety](SAFETY.md) section of this documentation. | :black_square_button: |
 | Turntable Traction Drive chassis grounded to motor frame | :black_square_button: |
 | Motor frame grounded to VFD | :black_square_button: |
 | Turntable Traction Drive is fully enclosed in a secure area | :black_square_button: |
