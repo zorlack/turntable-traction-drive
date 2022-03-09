@@ -23,6 +23,6 @@ description: Documentation
 
 # License
 
-<code markdown="0">
+```
 {% include_relative LICENSE %}
-</code>
+```
