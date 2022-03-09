@@ -1,10 +1,8 @@
 ---
 permalink: /documentation
-title: Turntable Traction Drive Documentation
-description: Documentation
+title: Turntable Traction Drive
+description: Complete Documentation
 ---
-
-# Turntable Traction Drive Documentation
 
 <image alt="Design Render" src="images/design-render.jpg" width=600 />
 
