@@ -4,6 +4,14 @@ I've tried to use off-the-shelf parts as much as possible in order to make this 
 
 A Complete Bill Of Materials is available here: [Bill Of Materials](BOM.md)
 
+## Note to Makers
+
+By following these instructions and building this machine you will be creating a powerful piece of machinery which will last a long time. Pause to consider both the longevity of the machine and how that may impact your continuing liability.
+
+:warning: **Before Proceeding, make sure you have read and understood the [SAFETY](SAFETY.md) section of the documentation.**
+
+:warning: **Before Proceeding, make sure you have read and understood the [Limitations](SAFETY.md#Limitations) section of the documentation.**
+
 ## Sourcing The Motor
 
 The motor, and gearbox can be the most difficult parts to source. If you try to match precisely what I have used you will end up paying top-dollar. A more economical way to source the powertrain is to go on ebay and look for a used parts. Here are the important parameters:
