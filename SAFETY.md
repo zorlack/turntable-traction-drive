@@ -55,15 +55,15 @@ As some risk is unavoidable, my analysis will focus on mitigation strategies. An
 
 | Risk | Mitigation Strategy |
 | -- | -- |
-| Electrical shock hazard | **Requirements:** Ground VFD appropriately to input mains. Ground motor appropriately to VFD. Ground chassis appropriately to the motor chassis. |
-| Pinching hazards from rotating internal equipment and rotating top sprocket |  **Requirements:** Turntable Traction Drive must be in a fully enclosed secure area during operation. |
-| Pinching/Crushing hazards between traction wheels and turntable edge | **Requirements:** Interface between the turntable and the traction drive must be fully enclosed during operation. |
-| Risk of unexpected start | **Requirements:** Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
-| Risk of fall due to sudden acceleration | Use conservative values for `f01`, `f02`, and `f03`. |
-| Risk of fall due to overspeed | Set a conservative hard frequency limit using `a61` |
-| Risk of crushing | Where possible tune-narrowly the current limiting features of your VFD. |
-| Risk of crushing because of external scenery-based crush points. | **Requirements:** Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and an adjacent non-rotating piece of scenery. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
-| Risk of entanglement | **Requirements:** Operator must have a clear view of the turntable. Emergency Stop button must located near the turntable. Cast and crew must be trained on the location of the e-stop button. |
-| Risk of slipping on a free-rotating turntable | **Requirement** A parking brake must be employed when the Turntable Traction Drive is not in use. All on-stage personel must be instructed on the free-rotating-nature of the turntable. |
-| Risk of operator/integrator ignorance | **Requirements:** All safety requirements and warnings must be clearly printed on a label applied to the machine. Documentation must be made available. |
-| Risk of structural collapes on turntable | **Requirement:** Ensure that all scenery is constructed such that it can absorb axial load such as might result from a sudden change in rotational speed. |
+| Risk of electrical shock | **Requirements:**<br/>Ground VFD appropriately to input mains.<br/>Ground motor appropriately to VFD.<br/>Ground chassis appropriately to the motor chassis. |
+| Pinching hazards from exposed rotating machine parts. |  **Requirements:**<br/>Turntable Traction Drive must be in a fully enclosed secure area during operation. |
+| Pinching/Crushing hazards between traction wheels and turntable edge. | **Requirements:**<br/>Interface between the turntable and the traction drive must be fully enclosed during operation. |
+| Risk of unexpected start | **Requirements:**<br/>Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
+| Risk of fall due to sudden acceleration | **Requirements:**<br/>Use conservative acceleration/deceleration values when configuring VFD. (For Hitachi L-100 see settings `f01`, `f02`, and `f03`) |
+| Risk of fall due to overspeed | **Requirement:**<br/>Set a conservative hard frequency limit in your VFD configuration. (For Hitachi L-100 see settting `a61`) |
+| Risk of crushing | **Requirement**<br/>Where possible tune-narrowly the current limiting features of your VFD. (For the Hitachi L-100 this configuration may be limited.) |
+| Risk of crushing because of external scenery-based crush points. | **Requirements:**<br/>Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and any adjacent piece of scenery.<br/>Emergency Stop button must located near the turntable.<br/>Cast and crew must be trained on the location of the Emergency Stop button. |
+| Risk of entanglement | **Requirements:**<br/>Operator must have a clear view of the turntable.<br/>Emergency Stop button must located near the turntable.<br/>Cast and crew must be trained on the location of the Emergency Stop button. |
+| Risk of slipping on a free-rotating turntable | **Requirement**<br/>A parking brake (or other disablement device) must be employed to prevent the turntable from turning when the Turntable Traction Drive is not in use.<br/>All on-stage personel must be instructed on the free-rotating-nature of the turntable. |
+| Risk of operator/integrator ignorance | **Requirements:**<br/>All safety requirements and warnings must be clearly printed on a label applied to the machine.<br/>Documentation must be made available. |
+| Risk of structural collapes on turntable | **Requirement:**<br/>Ensure that all scenery is constructed such that it can absorb axial load such as might result from a sudden change in rotational speed. |
