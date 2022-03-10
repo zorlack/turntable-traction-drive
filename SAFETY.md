@@ -56,10 +56,11 @@ As some risk is unavoidable, my analysis will focus on mitigation strategies. An
 | Risk | Mitigation Strategy |
 | -- | -- |
 | Risk of electrical shock | **Requirements:**<br/>Ground VFD appropriately to input mains.<br/>Ground motor appropriately to VFD.<br/>Ground chassis appropriately to the motor chassis. |
-| Pinching hazards from exposed rotating machine parts. |  **Requirements:**<br/>Turntable Traction Drive must be in a fully enclosed secure area during operation. |
-| Pinching/Crushing hazards between traction wheels and turntable edge. | **Requirements:**<br/>Interface between the turntable and the traction drive must be fully enclosed during operation. |
-| Risk of unexpected start | **Requirements:**<br/>Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4` |
-| Risk of fall due to sudden acceleration | **Requirements:**<br/>Use conservative acceleration/deceleration values when configuring VFD. (For Hitachi L-100 see settings `f01`, `f02`, and `f03`) |
+| Pinching hazards from exposed rotating machine parts. |  **Requirement:**<br/>Turntable Traction Drive must be in a fully enclosed secure area during operation. |
+| Pinching/Crushing hazards between traction wheels and turntable edge. | **Requirement:**<br/>Interface between the turntable and the traction drive must be fully enclosed during operation. |
+| Risk of unexpected start | **Requirement:**<br/>Enable Unattended Start Protection in VFD by setting `c04` to `13` and short `P24` to `PIN 4`<br/>Disconnect power from the system prior to maintenance. |
+| Risk of fall during normal operation | **Requirements:**<br/>Rehearse with onstage personel in order to find safe speeds and acceleration values. Do not deviate from these values without notice. |
+| Risk of fall due to sudden acceleration | **Requirement:**<br/>Use conservative acceleration/deceleration values when configuring VFD. (For Hitachi L-100 see settings `f01`, `f02`, and `f03`) |
 | Risk of fall due to overspeed | **Requirement:**<br/>Set a conservative hard frequency limit in your VFD configuration. (For Hitachi L-100 see settting `a61`) |
 | Risk of crushing | **Requirement**<br/>Where possible tune-narrowly the current limiting features of your VFD. (For the Hitachi L-100 this configuration may be limited.) |
 | Risk of crushing because of external scenery-based crush points. | **Requirements:**<br/>Turntables must maintain a raidal safety margin sufficient to prevent a person from being caught between a rotating piece of scenery and any adjacent piece of scenery.<br/>Emergency Stop button must located near the turntable.<br/>Cast and crew must be trained on the location of the Emergency Stop button. |
