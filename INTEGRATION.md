@@ -12,6 +12,7 @@ The Turntable Traction Drive applies significant forces to the side of the turnt
 
 - The Turntable Traction Drive should not be pressed against a surface which will bow or deflect under pressure. Ideally you'd want a 3" wide rigid band that the turntable can drive against. In practice we've found that the drive wheels can get plenty of traction when applied against the edge of a 1.5" laminated plywood floor.
 - The drive wheels of the traction drive may cause maring or discoloration of surface finishes. You may need to apply a protective coating to traction surfaces if they are visible to the audience.
+- The drive wheels of the traction drive apply force to just one side of a turntable. To keep the turntable centered on its rollers your centering device must be sufficiently rigid (and well lubricated) to counter this force. 
 
 ### Critical Dimensions
 
@@ -36,6 +37,51 @@ Another critical factor is the height of the traction-bearing surface relative t
 | Lowest Possible Traction Surface | 3.25" to 4.75" from the bottom of the machine |
 | Highest Possible Traction Surface | 5.75" to 7.25" from the bottom of the machine |
 
+If the traction surface of your turntable is too high, it may be neccesary to raise the machine so that it contacts the correct portion of the turntable. Conversely, it may be neccesary to mount your traction drive below the stage if your dive surface is too low.
+
+## Traction Pressure
+
+The available tractive force of the Turntable Traction Drive is related to the pressure applied by the rollers against the traction surface. In other words, it's not sufficient to place the Turntable Traction Drive next to a turntable, it must be pressed firmly against the side of it. 
+
+This "preload" pressure may be created via two integration schemes:
+
+### Ratchet Straps
+
+In testing the Turntable Traction Drive we observed that we could apply ample force between the drive wheels and the turntable simply by connecting ratchet straps between the machine chassis and the carrier wheels of the turntable.
+
+This system has several advantages over the Pusher Spring system:
+
+- Rachet straps are plentiful and easy to inspect.
+- The have some natural stretch to them, allowing for eccentricity of the turntable.
+- They are easy to remove and reattach, simplifying maintenance activities.
+- Rachet straps don't create metal-on-metal noise as they stretch.
+
+For these reasons ratchet straps are prefered mecahnism for integration.
+
+To attach the turntable via rachet straps:
+
+- Ensure that the Turntable Traction Drive is evenly supported and that you have strong material under the lag-bolt slots.
+- Connect the left and right sides between the rear of the side-panels and a suitably strong tie-down point on or near your turntable.
+- Evenly tension the two belts such that drive wheels are in good contact with the turntable.
+- Lag-bolt the machine down to the supporting surface loosely. (Such that the machine may become detached from the turntable, but may not be flung away from it.)
+
+### Pusher Springs
+
+<img alt="Pusher Springs" src="/images/pusher-plate.jpg" width="400" />
+
+The design calls for the use of four pusher springs which ride on 5/16" guide bolts. These pusher springs push the turntable forward, away from two L-iron brackets anchored firmly to the deck. This mechanism allows for approximately 1.8" of eccentricity in the turntable circumference while applying around 200 lbs of force.
+
+To install the pusher springs follow these instructions:
+
+- Ensure that the Turntable Traction Drive is evenly supported and that you have strong material under the lag-bolt slots.
+- Weld hex-heads the 5/16" partially-threaded guide bolts into the four holes provided in the pusher plates. The bolts should face backwards with the bolt heads resting on the interior faces of the pusher plates.
+- Slide the pusher springs over the guide bolts.
+- Pass the guide bolts into holes drilled in the L-iron. 
+- Using 5/16" lock nuts, compress the pusher springs between the L-Iron and the pusher plates.
+- Using lag-bolts, bolt the L-iron to the supporting surface. Make sure the lag-bolts pass through the slots on the bottom plate.
+- Loosen the 5/16" lock nuts such that the springs expand between staticaly mounted L-iron and the movable Turntable Traction Drive.
+
+*Note: In the pusher spring rendering there is insufficent clearance between the guide-bolts and the lag-bolts. This has been remedied by raising the holes in the pusher plate.*
 
 ## Integration Checklist
 
