@@ -6,13 +6,13 @@
 .page-header {
   position: relative;
   background-color: #CCCCCC99;
-  background-image: none;
+  background-image: linear-gradient(0, #303b4699, #3a3a3a);
   /* background-color: #159957; */
   /* background-image: linear-gradient(120deg, #155799, #159957); */
   
   video {
     object-fit: cover;
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     left: 0;
     top: 0;
