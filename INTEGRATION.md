@@ -4,6 +4,39 @@ This guide is designed to help scenic designers and technical directors integrat
 
 :warning: **Before Proceeding, make sure you have read and understood the [SAFETY](SAFETY.md) section of the documentation.**
 
+:warning: **Before Proceeding, make sure you have read and understood the [Limitations](SAFETY.md#Limitations) section of the documentation.**
+
+## Turntable Integration
+
+The Turntable Traction Drive applies significant forces to the side of the turntable where it makes contact. This requires the following considerations:
+
+- The Turntable Traction Drive should not be pressed against a surface which will bow or deflect under pressure. Ideally you'd want a 3" wide rigid band that the turntable can drive against. In practice we've found that the drive wheels can get plenty of traction when applied against the edge of a 1.5" laminated plywood floor.
+- The drive wheels of the traction drive may cause maring or discoloration of surface finishes. You may need to apply a protective coating to traction surfaces if they are visible to the audience.
+
+### Critical Dimensions
+
+The two key factors when determining if this machine will work with your turntable are diameter and mass. At present we don't have sufficient information to give guidance about maximum turntable mass. Except to say that we had no difficulty moving a 23' turntable with a 2-story wood and steel "castle" on it.
+
+| Dimension | Value |
+| -- | -- |
+| Minimum Turntable Diameter | 6' |
+| Maximum Turntable Diameter | 23' Demonstrated (Maximum Unknown) |
+
+If the diameter of your turntable is too large you may have difficulty running it fast enough with the as-designed gearing. If this is the case you have two options:
+
+- You may increase the diameter of your drive rollers up to 12" in diameter (this size is quite extreme consider 8"). Increasing the diameter of the drive rollers will cause you to suffer a substantial loss of starting torque. The advantage is increased speed at your motor's native frequency without an increase in chain noise. 
+- You may decide to overdrive your motor beyond 60Hz. Many VFDs will let you run the motor up to 400Hz, at this speed you would likely damage your gearbox, motor and chain drive. Many motors will be perfectly happy to run faster than 60Hz with reduced duty cycle. Consult your motor and gearbox documentation to determine the maximum safe operating speed of your Turntable Traction Drive.
+
+Another critical factor is the height of the traction-bearing surface relative the bottom of the turntable traction drive. The vertical position of the drive wheels is adjustable, but is ultimately constrined by the spacing between the drive sprockets. That said drive wheels have about 4" of vertical adjustability.
+
+| Dimension | Value |
+| -- | -- |
+| Minimum Traction Surface Width | 1.5" |
+| Maximum Traction Surface Width | 3" (Drive Roller Width) |
+| Lowest Possible Traction Surface | 3.25" to 4.75" from the bottom of the machine |
+| Highest Possible Traction Surface | 5.75" to 7.25" from the bottom of the machine |
+
+
 ## Integration Checklist
 
 To help ensure safe operation of this Turntable Traction Drive please ensure the following **REQUIRED** conditions have been met:
@@ -18,37 +51,6 @@ To help ensure safe operation of this Turntable Traction Drive please ensure the
 | Turntable hard-scenery elements don't create opportunities for shearing or crushing | :black_square_button: |
 | Emergency stop button located within 6' of Turntable Traction Drive | :black_square_button: |
 | Turntable fitted with an external parking brake. | :black_square_button: |
-
-### Liability
-
-This design is available for use under the [Creative Commons Attribution 4.0 International license](https://github.com/zorlack/turntable-traction-drive/blob/master/LICENSE). By using this design you agree to the terms of this license.
-
-The license includes the following language, which you should read:
-
-    Section 5 -- Disclaimer of Warranties and Limitation of Liability.
-
-      a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
-         EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
-         AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
-         ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
-         IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
-         WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
-         PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
-         ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
-         KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
-         ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
-
-      b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
-         TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
-         NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
-         INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
-         COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
-         USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
-         ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
-         DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
-         IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
-
-In plain language: **I don't guarantee that this design works as intended, and I am not liable for any harm resulting from your use of this design.**
 
 ## VFD Configuration
 
