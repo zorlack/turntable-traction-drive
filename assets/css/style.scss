@@ -21,3 +21,9 @@
     height: 100%;
   }
 }
+
+@media print {
+   .noprint {
+      visibility: hidden;
+   }
+}
