@@ -37,6 +37,15 @@ The license includes the following language, which you should read:
 
 In plain language: **I don't guarantee that this design works as intended, and I am not liable for any harm resulting from your use of this design.**
 
+## Limitations
+
+The Turntable Traction Drive has the following known limitations/deficiencies:
+
+- No Brake: The Turntable Traction Drive does not provide built-in braking. (This may be remedied by using a motor configuration with a power-off brake.) In practice this means that when the drive is not rotating the turntable is only kept in place by two things: The inertia of the turntable itself, and the friction in the chain and gearbox system of the Turntable Traction Drive. For massive (high-mass) turntables with substantial loss due to friction this is not a problem, as the turntable will tend to stay put. **For low-mass or low-friction turntables it may be neccessary to use an external braking mechanism to keep the turntable from free-rotation when the drive is not rotating.**
+- Insufficient Current Limiting Capabilities: Ideally we would like to set a current limit at various stages of operation such that the inverter trips when there is an unexpected spike in current. **The Hitachi L100-007NFU does not have sufficient control granularly limit current.**
+- Open Loop: The Turntable Traction Drive is a machine for rotating a turntable. It is not a machine for accurately "positioning" a turntable. As such **this machine's utility in precise motion control applications may be limited.**
+
+
 ## Key Safety Principals
 
 :warning: **The Turntable Traction Drive is a powerful machine. Using it should not be taken lightly. Caution and care must be taken in every integration to ensure that safe operating parameters are configured.**
