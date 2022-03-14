@@ -100,9 +100,25 @@ To help ensure safe operation of this Turntable Traction Drive please ensure the
 
 ## VFD Configuration
 
-### Durapulse GS23-22P0 Configuration
+### DURApulse GS23-22P0 Configuration
 
-//TODO
+**Note:** These notes are only really useful for the DURApulse GS23. If you're using another VFD consult your documentation.
+
+When configured correctly we desire the following outcome:
+
+- To tell the turntable to run forward short `DCM` to `DI1/FWD`.
+- To tell the turntable to run in revers short `DCM` to `DI2/REV`.
+- To enter Safe Torque Off `STO` interrupt short between `+24 V` and either `STO1` or `STO2`
+
+#### DURApulse GS23 Parameters
+
+| Parameter | Value | Notes |
+| -- | -- | -- |
+| `P02.00` | `2` | 2-Wire Configuration |
+| `P01.10` | `60` | Output Frequency Upper Limit |
+| `P01.12` | `1` | Acceleration Time 1 |
+| `P01.13` | `1` | Deceleration Time 1 |
+| `P06.12` | ?? | Current Limit 0-250% |
 
 ### Hitachi L100 Configuration
 
@@ -115,7 +131,7 @@ When configured correctly we desire the following outcome:
 - To tell the turntable to run forward short `P24` to `PIN 1`.
 - To tell the turntable to run in revers short `P24` to `PIN 2`.
 
-#### Hitachi L100 VFD Parameters
+#### Hitachi L100 Parameters
 
 | Parameter | Value | Notes |
 | -- | -- | -- |
