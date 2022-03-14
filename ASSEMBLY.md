@@ -88,6 +88,22 @@ During our initial assembly we waited to weld the top until we verified that eve
 
 We also welded on some store-bought handles in order to make moving the machine slightly less cumbersome.
 
+## Drive Chain
+
+Connecting the input and output sprockets can be a bit tricky for a few reasons:
+
+- There isn't that much room between the top plate of the machine and where the top chain wants to run. 
+- The hub-to-hub distance on the left side of the machine is different on the right side. You may have to experiment by adding links until you find a length of chain that fits evently on both sides.
+
+Move the motor forward and backwards as needed using the motor mount sled. When you find the correct chain length and tension tighten the bolts on the motor flange to lock the motor spacing into the system.
+
+While some chain noise is expected, if your machine is much louder than you expect look for the following defects:
+
+- Chain is too close to the top plate and rubbing against it.
+- Sprockets are not at the same height.
+
+If you're still having chain noise try adding grease.
+
 ## Motor Wiring
 
 Generally speaking wiring up a 3-phase motor is a matter of consulting the label on the side of the motor and connecting the appropriate wires to the VFD. Typically you will connect 3 hot legs and a ground to the VFD. There is no need for a seperate neutral connection.
@@ -122,6 +138,12 @@ Follow your VFD's instructions for mains wiring. We are using a DURApulse GS23-2
 | `XLR Pin 2` | `FWD/DI1` Forward RUN | 3-Wire Configuration |
 | `XLR Pin 3` | `REV/DI2` Reverse RUN | 3-Wire Configuration |
 | `XLR Pin 4` | `STO1` Safe Torque Off 1 | Sending +24V to STO will send e-stop the device. |
+
+| Operation | Condition |
+| -- | -- |
+| Run Forward | Short `XLR Pin 1` to `XLR Pin 2` |
+| Run Reverse | Short `XLR Pin 1` to `XLR Pin 3` |
+| Emergency Stop (STO) | Short `XLR Pin 1` to `XLR Pin 4` |
 
 ### Hitachi L100 Wiring
 
