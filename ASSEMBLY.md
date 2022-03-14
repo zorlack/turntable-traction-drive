@@ -108,9 +108,22 @@ Be sure to use an appropriate strain relief or grommet to prevent the knockout o
 
 ## VFD Wiring
 
-Follow your VFD's instructions for mains wiring. We are able to run our Hitachi L100 off of a single 20A 120VAC circuit. For higher-load applications it may be neccesary to use a VFD with a larger input requirement.
+For control wiring we have decided used 4-pin XLR. **Industrial automation hardware tends to work with 24VDC reference signals which we intend to use in our control pendant.** For this reason it's important that our choice of cabling no be prone to confusion. 4-pin XLR is unlikely to be accidentally plugged into a dimmer or a soundboard. There is some risk of confusion around theater headsets and around scrollers and TV cameras, but generally it's a lightly-used form factor.
 
-For control wiring we have decided used 4-pin XLR. **The VFD produces a 24VDC reference signal which we intend to use in our control pendant.** For this reason it's important that our choice of cabling no be prone to confusion. 4-pin XLR is unlikely to be accidentally plugged into a dimmer or a soundboard. There is some risk of confusion around theater headsets and around scrollers and TV cameras, but generally it's a lightly-used form factor.
+Follow your VFD's instructions for mains wiring. We are using a DURApulse GS23-22P0 in our 3-phase environment. This is a 3phase VFD with a 2HP rating and a STO feature. For reference, we have tested the Turntable Traction Drive on a Hitachi L100 connected to a single 20A 120VAC circuit. So you can definitely use a smaller VFD where required.
+
+### DURApulse GS23 Wiring
+
+** To Begin: Configure the DI pins into `SOURCE` mode my adjusting the toggle switch to `PNP`.**
+
+| XLR Pin Number | VFD Pin | Note |
+| -- | -- | -- |
+| `XLR Pin 1` | `+24` Digital Common | |
+| `XLR Pin 2` | `FWD/DI1` Forward RUN | 3-Wire Configuration |
+| `XLR Pin 3` | `REV/DI2` Reverse RUN | 3-Wire Configuration |
+| `XLR Pin 4` | `STO1` Safe Torque Off 1 | Sending +24V to STO will send e-stop the device. |
+
+### Hitachi L100 Wiring
 
 | XLR Pin Number | VFD Pin | Note |
 | -- | -- | -- |
@@ -135,10 +148,25 @@ Rather than designing a bespoke pendant I decided to choose from one of the many
 
 For our implementation we have made the top momentary switch the `RUN FORWARD` button. The bottom momentary switch is the `RUN REVERSE` button:
 
+### Pendant Wiring for DURApulse GS23
+
 | Connection | Purpose |
 | -- | -- |
 | `XLR Pin 1` TO `EMERGENCY STOP LEFT SIDE` | 24VDC for the pendant will travel through the e-stop button. If e-stop is activated power is interrupted. |
-| `EMERGENCY STOP RIGHT SIDE` TO `RUN FORWARD LEFT SIDE` | Send 24VDC to the `RUN FORWARD` button when e-stop is not engaged." |
-| `EMERGENCY STOP RIGHT SIDE` TO `RUN REVERSE LEFT SIDE` | Send 24VDC to the `RUN REVERSE` button when e-stop is not engaged." |
-| `RUN FORWARD RIGHT SIDE` TO `XLR Pin 2` | Send 24VDC to the VFD when `RUN FORWARD` is pressed and the e-stop is not engaged." |
-| `RUN REVERSE RIGHT SIDE` TO `XLR Pin 3` | Send 24VDC to the VFD when `RUN REVERSE` is pressed and the e-stop is not engaged." |
+| `XLR Pin 1` TO `RUN FORWARD LEFT SIDE` | Send 24VDC to the `RUN FORWARD` button when e-stop is not engaged. |
+| `XLR Pin 1` TO `RUN REVERSE LEFT SIDE` | Send 24VDC to the `RUN REVERSE` button when e-stop is not engaged. |
+| `EMERGENCY STOP RIGHT SIDE` TO `XLR Pin 4` | If e-stop is activated interrupt 24VDC to STO1. STO will engage. |
+| `RUN FORWARD RIGHT SIDE` TO `XLR Pin 2` | Send 24VDC to the VFD when `RUN FORWARD` is pressed. |
+| `RUN REVERSE RIGHT SIDE` TO `XLR Pin 3` | Send 24VDC to the VFD when `RUN REVERSE` is pressed. |
+
+### Pendant Wiring for Hitachi L100
+
+** The Hitachi L100 has no STO device. This configuration does not protect against a malfunctioning VFD. **
+
+| Connection | Purpose |
+| -- | -- |
+| `XLR Pin 1` TO `EMERGENCY STOP LEFT SIDE` | 24VDC for the pendant will travel through the e-stop button. If e-stop is activated power is interrupted. |
+| `EMERGENCY STOP RIGHT SIDE` TO `RUN FORWARD LEFT SIDE` | Send 24VDC to the `RUN FORWARD` button when e-stop is not engaged. |
+| `EMERGENCY STOP RIGHT SIDE` TO `RUN REVERSE LEFT SIDE` | Send 24VDC to the `RUN REVERSE` button when e-stop is not engaged. |
+| `RUN FORWARD RIGHT SIDE` TO `XLR Pin 2` | Send 24VDC to the VFD when `RUN FORWARD` is pressed and the e-stop is not engaged. |
+| `RUN REVERSE RIGHT SIDE` TO `XLR Pin 3` | Send 24VDC to the VFD when `RUN REVERSE` is pressed and the e-stop is not engaged. |
