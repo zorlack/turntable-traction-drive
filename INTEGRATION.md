@@ -100,6 +100,12 @@ To help ensure safe operation of this Turntable Traction Drive please ensure the
 
 ## VFD Configuration
 
+### Durapulse GS23-22P0 Configuration
+
+//TODO
+
+### Hitachi L100 Configuration
+
 **Note:** These notes are only really useful for the Hitachi L-100. If you're using another VFD consult your documentation.
 
 `P24` provides a 24V field reference voltage for use when powering the Control Terminals.
@@ -109,7 +115,7 @@ When configured correctly we desire the following outcome:
 - To tell the turntable to run forward short `P24` to `PIN 1`.
 - To tell the turntable to run in revers short `P24` to `PIN 2`.
 
-### VFD Parameters
+#### Hitachi L100 VFD Parameters
 
 | Parameter | Value | Notes |
 | -- | -- | -- |
