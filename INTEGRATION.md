@@ -67,7 +67,7 @@ To attach the turntable via rachet straps:
 
 ### Pusher Springs
 
-<img alt="Pusher Springs" src="/images/pusher-plate.jpg" width="400" />
+<img alt="Pusher Springs" src="images/pusher-plate.jpg" width="400" />
 
 The design calls for the use of four pusher springs which ride on 5/16" guide bolts. These pusher springs push the turntable forward, away from two L-iron brackets anchored firmly to the deck. This mechanism allows for approximately 1.8" of eccentricity in the turntable circumference while applying around 200 lbs of force.
 
