@@ -183,7 +183,7 @@ For our implementation we have made the top momentary switch the `RUN FORWARD` b
 
 ### Pendant Wiring for Hitachi L100
 
-** The Hitachi L100 has no STO device. This configuration does not protect against a malfunctioning VFD. **
+**The Hitachi L100 has no STO device. This configuration does not protect against a malfunctioning VFD. **
 
 | Connection | Purpose |
 | -- | -- |
