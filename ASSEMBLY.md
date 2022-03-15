@@ -137,13 +137,13 @@ Follow your VFD's instructions for mains wiring. We are using a DURApulse GS23-2
 | `XLR Pin 1` | `+24` Digital Common | |
 | `XLR Pin 2` | `FWD/DI1` Forward RUN | 3-Wire Configuration |
 | `XLR Pin 3` | `REV/DI2` Reverse RUN | 3-Wire Configuration |
-| `XLR Pin 4` | `STO1` Safe Torque Off 1 | Sending +24V to STO will send e-stop the device. |
+| `XLR Pin 4` | `STO1` Safe Torque Off 1 | Interrupting +24V to STO will send e-stop the device. |
 
 | Operation | Condition |
 | -- | -- |
 | Run Forward | Short `XLR Pin 1` to `XLR Pin 2` |
 | Run Reverse | Short `XLR Pin 1` to `XLR Pin 3` |
-| Emergency Stop (STO) | Short `XLR Pin 1` to `XLR Pin 4` |
+| Emergency Stop (STO) | Interrupt +24v between `XLR Pin 1` to `XLR Pin 4` |
 
 ### Hitachi L100 Wiring
 
