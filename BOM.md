@@ -3,11 +3,12 @@
 | Component | Units | Quantity | Unit Cost | Notes |
 | -- | -- | -- | -- | -- |
 | **Control** | | | | |
-| Hitachi L100-007NFU | EA | 1 | $200* | Variable Frequency Drive |
+| Automation Direct DURApulse GS23-22P0* | EA | 1 | $208 | [Variable Frequency Drive](https://www.automationdirect.com/adc/shopping/catalog/drives_-a-_soft_starters/ac_variable_frequency_drives_(vfd)/general_purpose/gs23-22p0) |
+| Automation Direct GS20A-DR-AB | EA | 1 | $5 | [VFD 35mm DIN rail adapter.](https://www.automationdirect.com/adc/shopping/catalog/drives_-a-_soft_starters/ac_variable_frequency_drives_(vfd)/remote_keypads,_disconnects,_mounting_-a-_accessories/gs20a-dr-ab) |
 | VFD Power Cable | EA | 1 | | #10 3-Wire Appliance Cable |
 | VFD Power Connector | EA | 1 | | NEMA 5-15P |
 | Control Pendant | EA | 1 | $36 | [Compact Crane Control Pendant](https://www.amazon.com/dp/B077NG3SLZ) |
-| Emergency Stop Buttons | PACK | 1 | $14 | [Mushroom Cap E-Stop Buttons](https://www.amazon.com/dp/B07G76MMMZ) |
+| Emergency Stop Buttons | PACK | 1 | $14 | Mushroom Cap E-Stop Buttons |
 | **Chassis** | | | | |
 | Bottom Plate | EA | 1 | -- | Custom 1/4" Steel from [BottomPlate-TotalSketch.dxf](dxfs/BottomPlate-TotalSketch.dxf) |
 | Motor Gusset | EA | 1 | -- | Custom 1/4" Steel from [MotorGusset-TotalSketch.dxf](dxfs/MotorGusset-TotalSketch.dxf) |
@@ -46,7 +47,7 @@
 
 **Total Cost Estimate: $2,980**
 
-\* Price Estimate. There are lots of different VFDs to choose from. Choose something that's not too cheep and appropriate for your input and output power needs.
+\* Choose a VFD that's compatible with your input power availability and which has a Safe Torque Off (STO) feature.
 
 \*\* Price Estimate. There are lots of different motors [you can buy](https://www.grainger.com/product/U-S-MOTORS-General-Purpose-Motor-Totally-23J893). The most important thing is that the power and form-factor be correct. 
 
