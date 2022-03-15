@@ -130,7 +130,7 @@ Follow your VFD's instructions for mains wiring. We are using a DURApulse GS23-2
 
 ### DURApulse GS23 Wiring
 
-** To Begin: Configure the DI pins into `SOURCE` mode my adjusting the toggle switch to `PNP`.**
+**To Begin: Configure the DI pins into `SOURCE` mode my adjusting the toggle switch to `PNP`.**
 
 | XLR Pin Number | VFD Pin | Note |
 | -- | -- | -- |
