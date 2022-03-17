@@ -93,7 +93,7 @@ My motor decision was based on what I had lying around. You may easily sub in yo
 
 In order to vary the speed of drive motor we must use a Variable Frequency Drive (VFD). The VFD will be responsible for managing the speed and acceleration of the traction drive. 
 
-#### VFD for 3 Phase Power
+#### VFD for 3 Phase Power (208 VAC)
 In our environment we have easy and plentiful access to 3phase 208v. For this reason we have selected a 3phase input VFD. If you have access to 3 phase power you can benfit from our integration notes throughout this documentation.
 
 | VFD Feature |  Detail |
@@ -104,8 +104,8 @@ In our environment we have easy and plentiful access to 3phase 208v. For this re
 | Output Range | 0 - 600Hz |
 | Safe Torque Off (STO) | Yes |
 
-#### Initial Testing VFD 
-Our initial testing was performed on a .75 HP 120V VFD. We were able to easily turn the 23' turntable using just a single wall outlet. This may be enough for many applications but be aware that VFDs under load have a nasty habbit of tripping residential breakers (especially RCD/GFCI circuits.)
+#### VFD for Single Phase (120 VAC)
+Our initial testing was performed on a .75 KW 120V VFD. We were able to easily turn the 23' turntable using just a single wall outlet.
 
 | VFD Feature |  Detail |
 | -------------- | ------------------------------|
