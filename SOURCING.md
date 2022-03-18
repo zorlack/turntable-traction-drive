@@ -68,3 +68,5 @@ Also be aware that VFDs under load have a nasty habbit of tripping residential b
 I found that it was a relatively simple matter to provide a local steel shop with the [2D DXFs](dxfs/) and the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf). The PDF makes it easy for a sales guy to quote the job without needing CAD. The PDF also communicates expectations around minimum hole diameter and tolerances.
 
 The design allows for 1/16 of slop between slots and tabs. The steel fabiractor must be able to hold 1/16th tolerance. The steel company which we worked with said that their plasma process could hold 1/16" of tollerance, but they had a specific requirement that no holes be smaller than 1/4" in diameter. This is not a problem for this design as we have so indicated in the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf).
+
+The total weight of the custom parts is around 112 lbs. Make sure you have a spot where the steel shop can deliver the order easily. In our experience the parts are, individually, easy to move around. When bundled together as a single order the steel is a two-person lift.
