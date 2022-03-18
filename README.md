@@ -16,6 +16,7 @@ This project [has a website.](https://zorlack.github.io/turntable-traction-drive
 | -- | -- |
 | [Safety and Liability](SAFETY.md) | Discussion of the drive and safety factors associated with its use. |
 | [Design Document](DESIGN.md) | Discussion of design and considerations made. |
+| [Parts Sourcing Guide](SOURCING.md) | Instructions on how to buy the right parts to build your own Turntable Traction Drive. |
 | [Assembly Guide](ASSEMBLY.md) |  Instructions on how to build your own Turntable Traction Drive.  |
 | [Integration Guide](INTEGRATION.md) | Instructions for Technical Directors on how to integrate this machine into your set desgin. |
 | [Operation Guide](OPERATION.md) | Instructions for Technical Directors on how to operate this machine. |
