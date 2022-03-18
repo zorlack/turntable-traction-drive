@@ -16,6 +16,7 @@ I was inspired to take on this project by Alan Hendrickson's chain-driven design
 
 - [Safety](#safety-and-liability)
 - [Design Document](#turntable-traction-drive-design)
+- [Parts Sourcing Guide](#parts-sourcing-guide)
 - [Assembly Guide](#turntable-traction-drive-assembly-guide)
 - [Integration Guide](#turntable-traction-drive-integration-guide)
 - [Operation Guide](#turntable-traction-drive-operation-guide)
@@ -29,6 +30,10 @@ I was inspired to take on this project by Alan Hendrickson's chain-driven design
 <div style="page-break-after: always"></div>
 
 {% include_relative  DESIGN.md %}
+
+<div style="page-break-after: always"></div>
+
+{% include_relative  SOURCING.md %}
 
 <div style="page-break-after: always"></div>
 
