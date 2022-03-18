@@ -12,6 +12,16 @@ By following these instructions and building this machine you will be creating a
 
 :warning: **Before Proceeding, make sure you have read and understood the [Limitations](SAFETY.md#Limitations) section of the documentation.**
 
+## Parts Arrival
+
+<image alt="Custom Parts As Delivered" src="images/steel-delivery.jpg" width=400 />
+
+The overall weight of the custom parts for the chassis is approximately 112lbs. Our source delivered the steel parts all bundled together sitting on top of some blocks of wood. No single part it so heavy that it can't be moved by one person, but the bundle was too heavy and bulky for one person to comfortably lift.
+
+<image alt="Parts Test Fit" src="images/parts-fitup.jpg" width=400 />
+
+The very first thing we did is test fit the parts together. I was expecting to have to make some adjustments with an angle grinder, but none were needed. The parts fit perfectly. Fitment was tight enough that the machine held its shape without clamps.
+
 ## Welding
 
 Assembly took two days, with the majority of time being spent drilling and tapping holes. The welding of the chassis was a bit time consuming owing to underpowered welder. We used flux-core .030 wire on our 120VAC Hobart Handler 140. 
