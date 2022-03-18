@@ -1,8 +1,14 @@
-# Sourcing Parts For The Turntable Traction Drive
+# Parts Sourcing Guide
 
 Finding reliable sources for parts is a challenging problem. If you pick a vendor like Amazon you may find that your item SKUs are no longer available weeks after you've made a purchase. On the other hand if you source parts exclusively from McMaster-Carr and Grainger you'll be paying top-dollar for that consistency.
 
 In order to make parts-sourcing consistant I've chosen McMaster-Carr for most pieces of hardware. The Motor, Gearbox, VFD and Custom Steel you will need to source independently.
+
+## Bill Of Material
+
+This project has a [Bill of Material](BOM.md). The BOM is a list of all the parts we used construct this machine. Wherever possible I have added links which (hopefully) will not go stale quickly. In addition I've added price estimates, but you should expect these numbers to change with time.
+
+I reccomend that you source the hard parts first before placing a large order with McMaster-Carr. Make sure you can find all the relevant components at a price-point which meets your budget before you click "Check Out."
 
 ## Sourcing The Motor
 
@@ -61,4 +67,4 @@ Also be aware that VFDs under load have a nasty habbit of tripping residential b
 
 I found that it was a relatively simple matter to provide a local steel shop with the [2D DXFs](dxfs/) and the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf). The PDF makes it easy for a sales guy to quote the job without needing CAD. The PDF also communicates expectations around minimum hole diameter and tolerances.
 
-The design allows for 1/16 of slop between slots and tabs. The steel fabiractor must be able to hold 1/16th tolerance.
+The design allows for 1/16 of slop between slots and tabs. The steel fabiractor must be able to hold 1/16th tolerance. The steel company which we worked with said that their plasma process could hold 1/16" of tollerance, but they had a specific requirement that no holes be smaller than 1/4" in diameter. This is not a problem for this design as we have so indicated in the [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf).
