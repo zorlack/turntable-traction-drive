@@ -21,6 +21,7 @@ This project [has a website.](https://zorlack.github.io/turntable-traction-drive
 | [Integration Guide](INTEGRATION.md) | Instructions for Technical Directors on how to integrate this machine into your set desgin. |
 | [Operation Guide](OPERATION.md) | Instructions for Technical Directors on how to operate this machine. |
 | [Bill Of Materials](BOM.md) | A list of the parts required to build this machine. |
+| [Wiring Guide](WIRING.md) | Instructions for wiring up the VFD, Control Pendant, and Emergency-Stop. |
 | [Custom Parts Overview](TurntableTractionDrive-PartsOverview.pdf) | A one-page PDF helpful when ordering custom cut steel. |
 | [Creative Commons Attribution 4.0 International](https://github.com/zorlack/turntable-traction-drive/blob/master/LICENSE) | The license under-which these plans are made available. |
 
