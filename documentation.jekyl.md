@@ -21,6 +21,7 @@ I was inspired to take on this project by Alan Hendrickson's chain-driven design
 - [Integration Guide](#turntable-traction-drive-integration-guide)
 - [Operation Guide](#turntable-traction-drive-operation-guide)
 - [Bill of Materials](#bill-of-materials)
+- [Wiring Guide](#wiring-guide)
 - [License](#license)
 
 <div style="page-break-after: always"></div>
@@ -50,6 +51,10 @@ I was inspired to take on this project by Alan Hendrickson's chain-driven design
 <div style="page-break-after: always"></div>
 
 {% include_relative  BOM.md %}
+
+<div style="page-break-after: always"></div>
+
+{% include_relative  WIRING.md %}
 
 <div style="page-break-after: always"></div>
 
