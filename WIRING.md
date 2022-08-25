@@ -1,6 +1,8 @@
 # Wiring Guide
 
-For the sake of reusability we have wired our VFD into a semi-permanent control panel using DIN terminal blocks to connect the user wiring. **This control panel is designed to be fully enclosed during use.**
+For the sake of reusability we have wired our VFD into a semi-permanent control panel using DIN terminal blocks to connect the user wiring. **This control panel is designed to be fully enclosed in scenery during use.**
+
+<image alt="Assembled Chassis Before Welding (photo)" src="images/control-panel.jpg" width=400 />
 
 Be sure to follow the VFD manufacturer's specifications when selecing wiring materials. You don't want to under-spec the mains or motor wiring.
 
